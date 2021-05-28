@@ -6,3 +6,6 @@ while bin_num > 0: #while the binary number is greater than zero
   bin_num //= 10  #divide bin_num by 10 after every iteration
   power += 1     #increase power by 1 after every iteration
 print("The Decimal Equivalent is: ",dec_num) #print the decimal number
+
+# Task 2
+
