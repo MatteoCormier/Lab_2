@@ -9,10 +9,9 @@ print("The Decimal Equivalent is: ",dec_num) #print the decimal number
 
 # Task 2
 
-text = input("Please enter a string seperated by '?'s between words: \n")
+text = input("Please enter a string seperated by '?'s between words: \n") #ask the user for a string input
 
-newtext = text.replace("?"," ")
+newtext = text.replace("?"," ")   #replace all of the ?'s with spaces so the sentence makes sense
+wordcount = (text.count("?") + 1)    #count the amount of ?'s between the words and  then add one to find the word count
 
-wordcount = (text.count("?") + 1)
-
-print (newtext,"\n The amount of words inputted is:" ,wordcount)
+print ("The normal sentence is:",newtext,"\nThe amount of words inputted is:" ,wordcount) #Print out what the normal sentence would say without the ?'s and then on the next line, print the number of words
