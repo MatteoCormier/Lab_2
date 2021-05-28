@@ -1,3 +1,5 @@
+# Task 1
+
 bin_num = int(input("Enter The Binary Number: \n")) #ask user to enter binary number
 power = 0 #declare power as 0
 dec_num = 0 #declare decimal number as 0
