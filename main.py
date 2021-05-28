@@ -14,6 +14,6 @@ print("The Decimal Equivalent is: ",dec_num) #print the decimal number
 text = input("Please enter a string seperated by '?'s between words: \n") #ask the user for a string input
 
 wordcount = (text.count("?") + 1)    #count the amount of ?'s between the words and  then add one to find the word count
-
 newtext = text.replace("?"," ")   #replace all of the ?'s with spaces so the sentence makes sense
+
 print ("The normal sentence is:",newtext,"\nThe amount of words inputted is:" ,wordcount) #Print out what the normal sentence would say without the ?'s and then on the next line, print the number of words
