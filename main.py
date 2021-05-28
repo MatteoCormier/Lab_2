@@ -9,3 +9,10 @@ print("The Decimal Equivalent is: ",dec_num) #print the decimal number
 
 # Task 2
 
+text = input("Please enter a string seperated by '?'s between words: \n")
+
+newtext = text.replace("?"," ")
+
+wordcount = (text.count("?") + 1)
+
+print (newtext,"\n The amount of words inputted is:" ,wordcount)
